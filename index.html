@@ -1,1 +1,48 @@
-Hello World!!
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Get accurate weather forecasts for your location with our 9-day weather prediction service">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Weather Forecast</h1>
+        <nav>
+            <ul>
+                <li><a href="#current">Current Weather</a></li>
+                <li><a href="#forecast">9-Day Forecast</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="current" class="weather-update">
+            <h2>Current Weather</h2>
+            <div id="loading" class="loading">Loading weather data...</div>
+            <article class="weather-card">
+                <!-- Dynamic content will be inserted here by JavaScript -->
+            </article>
+        </section>
+
+        <section id="forecast" class="forecast">
+            <h2>9-Day Forecast</h2>
+            <div class="forecast-container">
+                <!-- Dynamic content will be inserted here by JavaScript -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Weather Forecast. All rights reserved.</p>
+        <div class="social-links">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
